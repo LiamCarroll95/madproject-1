@@ -27,7 +27,7 @@ public class MainActivity extends Activity
         setContentView(R.layout.activity_main);
         MapView mv = (MapView)findViewById(R.id.map1);
         mv.getController().setZoom(14);
-        mv.getController().setCenter(new GeoPoint(40.1, 22.5));
+        mv.getController().setCenter(new GeoPoint(48.1, 29.5));
     }
 
     public boolean onCreateOptionsMenu (Menu menu)
