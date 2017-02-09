@@ -16,11 +16,11 @@ public class MapChooseActivity extends Activity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mca);
 
-        Button Regular = (Button)findViewById(R.id.btnRegular);
-        Regular.setOnClickListener(this);
+        Button regular = (Button)findViewById(R.id.btnRegular);
+        regular.setOnClickListener(this);
 
-        Button Cyclemap = (Button)findViewById(R.id.btnCyclemap);
-        View.OnClickListener(this);
+        Button cyclemap = (Button)findViewById(R.id.btnCyclemap);
+        cyclemap.setOnClickListener(this);
 
     }
 
