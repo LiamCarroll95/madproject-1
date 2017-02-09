@@ -27,7 +27,7 @@ public class MapChooseActivity extends Activity implements View.OnClickListener
     public void onClick(View view){
 
         boolean cyclemap = false;
-        if(view.getId()== R.btnCyclemap){
+        if(view.getId()== R.id.btnCyclemap){
             cyclemap = true;
         }
         Intent Intent = new Intent ();
